@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 12px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.title {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+.btns {
+  display: flex;
+}
+.title {
+  margin: 1.4rem 0rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+}
+.btns-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.down-icon {
+  opacity: 0;
+}
+#row {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  opacity: 0;
+}
+.show-text #row {
+  opacity: 1;
+}
+.show-text .up-icon {
+  display: none;
+}
+.show-text .down-icon {
+  opacity: 1;
+}
